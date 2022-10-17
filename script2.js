@@ -22,7 +22,7 @@ if (math === '+') {
 alert('The end of script2')
 
 
-// Доделать функции
+// Хочу разобраться с функциями и доделать потом через них
 
 // const firstNumber = Number(prompt('Enter first number'))
 // const secondNumber = Number(prompt('Enter second number'))
