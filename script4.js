@@ -40,14 +40,10 @@
 // let output = 0;
 
 // for (let i = 1; i <= 15; i++) {
-//     if (i % 2 === 0) {
 //         output = output + i
 //     }
-// }
 // console.log(`${output}`)
-
 // console.log('end')
-
 
 
 // 5. Знайти добуток усіх цілих чисел від 15 до 35
@@ -56,24 +52,41 @@
 // let output = 1;
 
 // for (let i = 15; i <= 35; i++) {
-//     if (i % 2 === 0) {
 //         output = output * i
 //     }
-// }
+
 // console.log(output)
 
 // console.log('end')
 
 
-
-
 // 6. Знайти середнє арифметичне всіх цілих чисел від 1 до 500
 
+// console.log('start')
+// let output = 0;
+
+// for (let i = 1; i <= 500; i++) {
+//         output = output + i / 500
+//     } 
+
+// console.log(`${output}`)
+// console.log('end')
 
 
 
 // 7. Вивести суму лише парних чисел в діапазоні від 30 до 80
 
+// console.log('start')
+// let output = 0;
+
+// for (let i = 30; i <= 80; i++) {
+//     if (i % 2 === 0) {
+//         output = output + i
+//     } 
+// } 
+
+// console.log(`${output}`)
+// console.log('end')
 
 
 
