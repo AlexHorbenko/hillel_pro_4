@@ -92,11 +92,35 @@
 
 // 8. Вивести всі числа в діапазоні від 100 до 200 кратні 3
 
+// console.log('start')
+// let output = '';
+
+// for (let i = 100; i <= 200; i++) {
+//     if (i % 3 === 0) {
+//         output = output + i + ', '
+//     } 
+// } 
+
+// console.log(`${output}`)
+// console.log('end')
 
 
 
 // 9. Дано натуральне число. Знайти та вивести на сторінку всі його дільники.
 
+console.log('start')
+let output = Number(prompt('Type any natural number'));
+
+for (let i = output; i < 0; i++) {
+    if (output % 2 ===0) {
+       
+    } else {
+
+    }
+} 
+
+console.log(`${output}`)
+console.log('end')
 
 
 
@@ -113,4 +137,4 @@
 
 
 
-alert('The end of script4')
+// alert('The end of script4')
