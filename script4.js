@@ -108,18 +108,17 @@
 
 // 9. Дано натуральне число. Знайти та вивести на сторінку всі його дільники.
 
-console.log('start')
-let output = Number(prompt('Type any natural number'));
+// console.log('start')
+// let output = Number(prompt('Type any natural number'));
 
-for (let i = output; i < 0; i++) {
-    if (output % 2 ===0) {
-       
-    } else {
+// for (let i = 1; i > 0 && i < output; i++) {
+//     if (output % i === 0) {
+//         console.log(`${output} += ${i} + ', '`)
+//     } else if (output % 3 ===0) {
+//         console.log(output)
+//     }
+// }
 
-    }
-} 
-
-console.log(`${output}`)
 console.log('end')
 
 
@@ -134,7 +133,18 @@ console.log('end')
 
 // 12. Надрукувати повну таблицю множення від 1 до 10
 
+console.log('start')
+let output = '';
 
+for (a = 1; a <= 10; a++) {
+    console.log('');
+    for (b = 1; b <=10; b++) {
+        console.log(`${a} * ${b} = ${a * b}`)
+    } 
+}
+console.log('end')
+
+alert('The end of script3')
 
 
 // alert('The end of script4')
