@@ -108,19 +108,16 @@
 
 // 9. Дано натуральне число. Знайти та вивести на сторінку всі його дільники.
 
-// console.log('start')
-// let output = Number(prompt('Type any natural number'));
+console.log('start')
+let output = Number(prompt('Type any natural number'));
 
-// for (let i = 1; i > 0 && i < output; i++) {
-//     if (output % i === 0) {
-//         console.log(`${output} += ${i} + ', '`)
-//     } else if (output % 3 ===0) {
-//         console.log(output)
-//     }
-// }
+for (i = 2; i * 2 <= output; i++) {
+    if (output % i === 0) {
+        console.log(`Number divider: ${i}`);
+    }
+}
 
 console.log('end')
-
 
 
 // 10. Визначити кількість його парних дільників
@@ -133,16 +130,16 @@ console.log('end')
 
 // 12. Надрукувати повну таблицю множення від 1 до 10
 
-console.log('start')
-let output = '';
+// console.log('start')
+// let output = '';
 
-for (a = 1; a <= 10; a++) {
-    console.log('');
-    for (b = 1; b <=10; b++) {
-        console.log(`${a} * ${b} = ${a * b}`)
-    } 
-}
-console.log('end')
+// for (a = 1; a <= 10; a++) {
+//     console.log('');
+//     for (b = 1; b <=10; b++) {
+//         console.log(`${a} * ${b} = ${a * b}`)
+//     } 
+// }
+// console.log('end')
 
 alert('The end of script3')
 
