@@ -14,28 +14,55 @@
 
 // Один долар коштує 27 гривень. Вивести дані з розрахунком вартості 10, 20, 30... 100 доларів
 
-console.log('start');
-let num = ''
+// console.log('start');
+// let num = ''
 
-for (let i=0; i <= 100; i = i + 10) {
-    num = i * 27
-    console.log(num);
-}
+// for (let i=0; i <= 100; i = i + 10) {
+//     num = i * 27
+//     console.log(num);
+// }
 
-console.log('end');
+// console.log('end');
 
 
 // Дане ціле число. Вивести всі цілі числа від 1 до 100, квадрат яких не перевищує числа N
 
+// console.log('start');
+// const num = Number(prompt('Enter any whole number from 1 to 100'))
+
+// for (let i = 1; i <= 100; i++) {
+//     if (i * i < num) {
+//         console.log(i * i);
+//     }
+// }
+// console.log('end');
 
 
 
 // Дане ціле число. З'ясувати, чи є воно простим (простим називається число, більше 1, які не мають інших дільників крім 1 і себе).
 
+console.log('start');
+function isPrimeNumber (num) {
+
+for (let i = 2; i < num; i++) {
+    if (num % i === 0) {
+        return false
+    }
+}
+return true
+}
+console.log('end');
 
 
 
 // Дане деяке число. Визначити, чи можна одержати це число шляхом зведення числа 3 у деякий ступінь. (Наприклад, числа 9, 81 можна отримати, а 13 - не можна)
 
+// console.log('start');
+// const num = Number(prompt('Enter any whole number'))
+
+// for (let i = 1; i < num / 2; i++) {
+//     console.log(num);
+// }
+// console.log('end');
 
 

@@ -40,8 +40,8 @@
 // let output = 0;
 
 // for (let i = 1; i <= 15; i++) {
-//         output = output + i
-//     }
+//     output = output + i
+// }
 // console.log(`${output}`)
 // console.log('end')
 
@@ -52,8 +52,8 @@
 // let output = 1;
 
 // for (let i = 15; i <= 35; i++) {
-//         output = output * i
-//     }
+//     output = output * i
+// }
 
 // console.log(output)
 
@@ -66,8 +66,8 @@
 // let output = 0;
 
 // for (let i = 1; i <= 500; i++) {
-//         output = output + i / 500
-//     } 
+//     output = output + i / 500
+// }
 
 // console.log(`${output}`)
 // console.log('end')
@@ -82,8 +82,8 @@
 // for (let i = 30; i <= 80; i++) {
 //     if (i % 2 === 0) {
 //         output = output + i
-//     } 
-// } 
+//     }
+// }
 
 // console.log(`${output}`)
 // console.log('end')
@@ -98,8 +98,8 @@
 // for (let i = 100; i <= 200; i++) {
 //     if (i % 3 === 0) {
 //         output = output + i + ', '
-//     } 
-// } 
+//     }
+// }
 
 // console.log(`${output}`)
 // console.log('end')
@@ -161,7 +161,7 @@
 //     console.log('');
 //     for (b = 1; b <=10; b++) {
 //         console.log(`${a} * ${b} = ${a * b}`)
-//     } 
+//     }
 // }
 // console.log('end')
 
