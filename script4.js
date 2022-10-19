@@ -105,26 +105,50 @@
 // console.log('end')
 
 
-
 // 9. Дано натуральне число. Знайти та вивести на сторінку всі його дільники.
 
-console.log('start')
-let output = Number(prompt('Type any natural number'));
+// console.log('start')
+// let output = Number(prompt('Type any natural number'));
 
-for (i = 2; i * 2 <= output; i++) {
-    if (output % i === 0) {
-        console.log(`Number divider: ${i}`);
-    }
-}
+// for (let i = 2; i * 2 <= output; i++) {
+//     if (output % i === 0) {
+//         console.log(`Number divider: ${i}`);
+//     }
+// }
 
-console.log('end')
+// console.log('end')
 
 
 // 10. Визначити кількість його парних дільників
 
+// console.log('start')
+// let output = Number(prompt('Type any natural number'));
+// let counter = 0
+
+// for (let i = 2; i <= output / 2; i++) {
+//     if (output % i === 0) {
+//         counter++
+//     }
+// }
+// console.log(counter);
+
+// console.log('end')
 
 
 // 11. Знайти суму його парних дільників
+
+// console.log('start')
+// let output = Number(prompt('Type any natural number'));
+// let sum = 0
+
+// for (let i = 2; i <= output / 2; i++) {
+//     if (output % i === 0) {
+//         sum = sum + i
+//     }
+// }
+// console.log(sum);
+
+// console.log('end')
 
 
 
@@ -140,8 +164,5 @@ console.log('end')
 //     } 
 // }
 // console.log('end')
-
-alert('The end of script3')
-
 
 // alert('The end of script4')
