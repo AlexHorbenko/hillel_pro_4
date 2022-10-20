@@ -64,14 +64,14 @@
 
 // Дане деяке число. Визначити, чи можна одержати це число шляхом зведення числа 3 у деякий ступінь. (Наприклад, числа 9, 81 можна отримати, а 13 - не можна)
 
-console.log('start');
+// console.log('start');
 
-let num = Number(prompt('Enter any number'))
+// let num = Number(prompt('Enter any number'))
 
-for (let i = 1; i <= num; i++) {
-    if (3 ** i === num) {
-        console.log(num);
-    }
-}
+// for (let i = 1; i <= num; i++) {
+//     if (3 ** i === num) {
+//         console.log(num);
+//     }
+// }
 
-console.log('end');
+// console.log('end');
