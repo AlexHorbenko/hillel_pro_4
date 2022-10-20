@@ -41,33 +41,37 @@
 
 // Дане ціле число. З'ясувати, чи є воно простим (простим називається число, більше 1, які не мають інших дільників крім 1 і себе).
 
-console.log('start');
-
-let num = Number(prompt('Enter an enteger'))
-let simple = true
-
-for (let i = 2; i <= num / 2; i++) {
-    if (num % i == 0) {
-        simple = false;
-        break
-    }
-}
-
-if (simple) {
-    console.log('true');
-} else {
-    console.log('false');
-}
-
-console.log('end');
-
-
-// Дане деяке число. Визначити, чи можна одержати це число шляхом зведення числа 3 у деякий ступінь. (Наприклад, числа 9, 81 можна отримати, а 13 - не можна)
-
 // console.log('start');
 
+// let num = Number(prompt('Enter an enteger'))
+// let simple = true
 
+// for (let i = 2; i <= num / 2; i++) {
+//     if (num % i === 0) {
+//         simple = false;
+//         break
+//     }
+// }
+
+// if (simple) {
+//     console.log('true');
+// } else {
+//     console.log('false');
+// }
 
 // console.log('end');
 
 
+// Дане деяке число. Визначити, чи можна одержати це число шляхом зведення числа 3 у деякий ступінь. (Наприклад, числа 9, 81 можна отримати, а 13 - не можна)
+
+console.log('start');
+
+let num = Number(prompt('Enter any number'))
+
+for (let i = 1; i <= num; i++) {
+    if (3 ** i === num) {
+        console.log(num);
+    }
+}
+
+console.log('end');
